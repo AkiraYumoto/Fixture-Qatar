@@ -1,0 +1,46 @@
+body {
+    background-image: url(https://cnnespanol.cnn.com/wp-content/uploads/2019/09/190903171331-qatar-world-cup-emblem-exlarge-169.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    padding: 0;
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    background-color: #732045;
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin: auto;
+    flex: 0%;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    /* Borde de las celdas */
+    font-size: larger;
+    position: relative;
+    width: 280px;
+    color: white;
+    border-bottom: 1px solid black;
+}
+
+.grupo {
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+img {
+    vertical-align: top;
+    height: auto;
+    max-width: 100%;
+    position: absolute;
+    left: 10px;
+}
